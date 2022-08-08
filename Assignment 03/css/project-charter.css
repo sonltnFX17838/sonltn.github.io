@@ -1,0 +1,99 @@
+/* layout for project-charter */
+.project-charter {
+  display: grid;
+  border: solid 12px blue;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-areas: "golas team timeline" "scopes primary timeline";
+}
+/* layout and frames for elements in project-charter */
+.golas {
+  grid-area: golas;
+  padding: 16px;
+}
+.golas > ul > li > p {
+  padding-bottom: 5px;
+}
+.team {
+  grid-area: team;
+  border-left: solid 10px blue;
+  padding: 16px;
+}
+.scopes {
+  grid-area: scopes;
+  border-top: solid 10px blue;
+  padding: 16px;
+}
+.primary {
+  grid-area: primary;
+  border-top: solid 10px blue;
+  border-left: solid 10px blue;
+  padding: 16px;
+}
+.primary > ul li:first-child {
+  padding-bottom: 20px;
+}
+.timeline {
+  grid-area: timeline;
+  border-left: solid 10px blue;
+  padding: 16px;
+}
+/* underline of golas element */
+.golas > ul > li > p {
+  border-bottom: 1px solid #e9ecef;
+}
+/* title of elements */
+h4 {
+  color: blue;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3bc9db;
+}
+span {
+  font-weight: 600;
+  display: block;
+}
+/* style under line of timeline */
+.timeline > ul li {
+  border-bottom: 1px #74c0fc dashed;
+}
+/* position for lists */
+li {
+  position: relative;
+  list-style-type: none;
+}
+/* icons for head line of lists */
+.icon {
+  position: absolute;
+  width: 32px;
+  top: 3px;
+  left: -34px;
+}
+/* style numbers for head line of timeline */
+.numb-timeline {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgb(171, 105, 204);
+  border-radius: 50%;
+  border: 1px solid #333;
+  top: 4px;
+  left: -42px;
+}
+/* font of link back to home page */
+.link-back {
+  font-size: 300%;
+}
+/* put a button in center of page*/
+.button-back {
+  display: flex;
+  margin-bottom: 12px;
+  justify-content: center;
+}
+/* hover for button link */
+a:hover {
+  transform: scale(0.96);
+}

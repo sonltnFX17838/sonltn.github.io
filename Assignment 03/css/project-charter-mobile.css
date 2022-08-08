@@ -1,0 +1,26 @@
+@media screen and (max-width: 767.98px) {
+  /* leave icons of golas element */
+  .golas > ul > li > i {
+    display: none;
+  }
+  /* leave icons of team element */
+  .team > div > ul > li > i {
+    display: none;
+  }
+  /* put lines of golas turn left */
+  .golas > ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+  }
+  /* layout of team element */
+  .team > div {
+    display: block;
+  }
+  /* put lines of team turn left */
+  .team > div > ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+  }
+}

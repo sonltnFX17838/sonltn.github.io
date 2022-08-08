@@ -1,0 +1,21 @@
+@media screen and (max-width: 991.98px) {
+  /* layout of page */
+  .project-charter {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  /* leave border line of elements */
+  .scopes,
+  .team,
+  .primary,
+  .timeline {
+    border: none;
+  }
+
+  /* layout of team element */
+  .team > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

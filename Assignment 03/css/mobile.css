@@ -1,0 +1,45 @@
+@media screen and (max-width: 767.98px) {
+  /* display for elements of nav-bar */
+  section > .container-nav-bar a {
+    display: block;
+    margin: 0%;
+    margin: 5px 0;
+    padding-left: 24px;
+  }
+  /* frames for target and personal-info */
+  .container-about {
+    justify-content: center;
+    width: 100%;
+    padding-left: 25px;
+  }
+  /* leave a border line of award 2 */
+  .award-2 {
+    border-left: none;
+  }
+  /* creat a border line of award 1 */
+  .award-1 {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  /* display for awards */
+  .awards {
+    flex-direction: column;
+  }
+  .award-1,
+  .award-2,
+  .award-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* display for all items in info */
+  .all-info {
+    display: none;
+    height: auto;
+  }
+  /* align info-item */
+  .info-item {
+    width: 100%;
+    margin: 5px 2px;
+  }
+}

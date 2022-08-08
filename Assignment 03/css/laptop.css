@@ -1,0 +1,338 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+#certificate {
+  background: #f7f7f7;
+}
+
+.bg-grey {
+  background: #fff;
+  margin: 52px 0;
+}
+
+.img-header {
+  width: 100%;
+  position: relative;
+  filter: brightness(80%);
+  object-fit: cover;
+  object-position: 100% 0;
+  height: 430px;
+}
+/* put a introduce between the banner */
+#banner {
+  position: absolute;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 130px;
+  left: 50%;
+}
+/* creat a border for nav-bar */
+.container-nav-bar {
+  border-bottom: 1px solid #e0e2eb;
+}
+
+/* style and align for elements of nav-bar*/
+.nav-a1 {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  padding: 5px;
+  margin-left: 20%;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #343a40;
+}
+/* style and align for elements of nav-bar*/
+.nav-a2 {
+  border-right: 1px solid #dee2e6;
+  padding: 5px;
+  margin-left: 6px;
+  margin-right: 10%;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #343a40;
+}
+/* style and align for elements of nav-bar*/
+.nav-a3 {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  padding: 5px;
+  margin-left: 10%;
+  margin-right: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #343a40;
+}
+/* style and align for elements of nav-bar*/
+.nav-a4 {
+  border-right: 1px solid #dee2e6;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #343a40;
+}
+/* style icon in element of nav-bar */
+.ic-nav {
+  padding-left: 5px;
+  width: 16px;
+  height: 16px;
+  color: #339af0;
+}
+/* style avatar for nav-bar (phần nâng cao)  */
+.avatar {
+  position: absolute;
+  transform: translate(-50%, 0);
+  left: 50%;
+  top: 330px;
+  height: 160px;
+  border-radius: 50%;
+  border: #f7f7f7 10px solid;
+}
+
+/* style target */
+.container-about .target {
+  color: #343a40;
+  text-align: start;
+  background-color: #e5dbff;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* style personal info */
+.container-about .personal-info {
+  color: #343a40;
+  text-align: start;
+  background-color: #dbe4ff;
+  line-height: 22px;
+  font-size: 14px;
+}
+/* style text of span in list */
+.mt-40 li span {
+  font-weight: 600;
+}
+/* put lines turn left */
+.mt-40 {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+/* icon in personal info element */
+.ic-personal {
+  padding-right: 10px;
+  font-size: 18px;
+}
+/* frames and display fex of info */
+.all-info {
+  margin: 10px;
+  width: auto;
+  height: 900px;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+/* layout for elements of info */
+.info-item {
+  padding: 10px;
+  margin: 15px;
+  display: grid;
+  width: 280px;
+  margin: none;
+  height: auto;
+  grid-template-columns: 75% 25%;
+  background-color: #f7f7f7;
+  box-shadow: -1px 1px 2px 1px #eceef8;
+}
+/* delete a dot of head line in all list */
+ul li {
+  list-style-type: none;
+}
+
+/*creat position of blue-dot list */
+.ul-blue-dot li {
+  position: relative;
+}
+/* put bule-dot in head line */
+.ul-blue-dot li::before {
+  position: absolute;
+  top: 7px;
+  left: -28px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #339af0;
+  border-radius: 50%;
+}
+
+/* layout 100% for second row in info-item */
+.info-item ul {
+  grid-column: 1 / 3;
+  font-size: 14px;
+  color: #343a40;
+  line-height: 22px;
+}
+/* display for icon of gu */
+.gu {
+  padding-left: 0;
+  display: flex;
+}
+/* style list of gu */
+.gu li {
+  display: inline-block;
+  list-style-type: none;
+}
+/* style icon of gu */
+.ic-gu::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #339af0;
+  height: 52px;
+  width: 52px;
+  font-size: 18px;
+  border: 1px solid #339af0;
+  border-radius: 50%;
+  margin-right: 22px;
+  margin-bottom: 10px;
+}
+/* style icons next to title */
+.ic-job-inf {
+  font-size: 50px;
+  color: #adb5bd;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+}
+/* title of info-item */
+.info-item > h3 {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 20px 30px;
+}
+/* put bule-underline in under line */
+.blue-underline {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 40px;
+} /* put gray-underline in under line */
+.gray-underline {
+  background: #e9ecef;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 40px;
+}
+/* layout of awards */
+div .awards {
+  line-height: 24px;
+  font-size: 14px;
+}
+/* img of awards */
+.img-cert {
+  float: left;
+  height: auto;
+  width: 336px;
+}
+/* border of awards */
+.award-2 {
+  border-left: 1px solid #d6c08d;
+}
+.award-3 {
+  border-top: 1px solid #d6c08d;
+}
+.award-4 {
+  border-top: 1px solid #d6c08d;
+}
+
+/* img of projects */
+.img-project {
+  width: 100%;
+  height: auto;
+}
+/* title of projects */
+#project .container .project .project-title {
+  padding: 24px;
+  font-weight: 550;
+  border: 1px solid #eceef8;
+}
+/* cv of projects */
+#project .container .project .project-cv {
+  font-size: 0.5;
+  padding: 24px;
+  font-weight: 500;
+  border: 1px solid #eceef8;
+}
+/* texts in projects */
+#project .container .project .project-cv p {
+  display: inline-block;
+  padding-left: 5px;
+}
+/* style a first text of project-cv */
+#project .container .project .project-cv span {
+  background-color: #339af0;
+  color: #f7f7f7;
+  padding: 5px 20px;
+  border-radius: 22px;
+}
+/* frames of projects */
+.project-items {
+  border: 1px solid #eceef8;
+  height: 600px;
+}
+/* table in projects */
+table {
+  width: 100%;
+  height: 280px;
+  border-collapse: collapse;
+}
+/* elements in table */
+table tr td {
+  border-top: 1px solid #eceef8;
+  padding: 10px;
+  font-size: 14px;
+}
+/* hover in table  */
+table tr:hover {
+  background-color: #f1f3f5;
+}
+/* layout of footer */
+#footer .container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* display of lists in footer */
+#footer .container ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+/* links of footer */
+#footer .container ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #adb5bd;
+  padding: 10px;
+  margin: 18px;
+}
+/*icon of footer */
+.ic-footer {
+  color: #339af0;
+  font-size: 160%;
+}
+/* hover for links */
+a:hover {
+  transform: scale(0.96);
+}
